@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #18192e;
+}
+
+h3 {
+    color: #eeeeee;
+    font-size: 24px;
+}
+
+h6 {
+    color: #eeeeee;
+    font-size: 18px;
+}
+
+p {
+    color: #6e6d7b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.img {
+    position: relative;
+    top: 80px;
+    left: 450px;
+}
+
+.hello {
+    font-weight: 700;
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 370px;
+    width: 200px;
+    text-align: right;
+}
+
+.hello span:first-child {
+    color: #eeeeee;
+}
+
+.hello span:last-child {
+    color: #716ff6;
+}
+
+.content {
+    font-size: 18px;
+    color: #6e6d7b;
+    width: 340px;
+    height: auto;
+    text-align: right;
+    position: absolute;
+    top: 260px;
+    left: 70px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    position: relative;
+    top: 120px;
+    left: 47%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon span {
+    color: white;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section .sct-about {
+    position: relative;
+    left: 550px;
+}
+
+.section .sct-about span:first-child {
+    color: #eeeeee;
+}
+
+.section .sct-about span:last-child {
+    color: #716ff6;
+}
+
+.box { 
+    position: relative;
+    top: 50px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.item-1 {
+    width: 670px;
+    height: auto;
+}
+
+.item-2 span {
+    color: #6e6d7b;
+    font-size: 18px;
+    font-weight: 400;
+}
